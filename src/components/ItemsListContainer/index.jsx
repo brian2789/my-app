@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function ItemsListContainer({saludo}) {
+export default function ItemsListContainer({greeting}) {
   return (
     <div>
-      <p>{saludo}</p>
+      <p>{greeting}</p>
     </div>
   )
 }
